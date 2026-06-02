@@ -8,6 +8,7 @@ import {
   FiYoutube,
 } from "react-icons/fi";
 import { Link } from "react-scroll";
+import { FaMedium } from "react-icons/fa";
 
 export default function Footer() {
   const [showTop, setShowTop] = useState(false);
@@ -75,7 +76,11 @@ export default function Footer() {
                   href: "mailto:garejabharatk@gmail.com",
                   label: "Email",
                 },
-                { icon: <FiYoutube />, href: "#", label: "YouTube" },
+                {
+                  icon: <FaMedium />,
+                  href: "https://medium.com/@garejabharatk",
+                  label: "Medium",
+                },
               ].map((s) => (
                 <motion.a
                   key={s.label}

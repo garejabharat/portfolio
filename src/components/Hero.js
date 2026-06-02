@@ -271,6 +271,7 @@ export default function Hero() {
             { label: "GitHub", url: "https://github.com/garejabharat" },
             { label: "LinkedIn", url: "https://linkedin.com/in/bharat-gareja" },
             { label: "Email", url: "mailto:garejabharatk@gmail.com" },
+            { label: "Medium", url: "https://medium.com/@garejabharatk" },
           ].map((s) => (
             <a
               key={s.label}

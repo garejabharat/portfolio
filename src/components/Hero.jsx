@@ -4,6 +4,7 @@ import { TypeAnimation } from "react-type-animation";
 import { FiDownload, FiMail, FiGithub, FiLinkedin } from "react-icons/fi";
 import { Link } from "react-scroll";
 import { Element } from "react-scroll";
+import { FaMedium } from "react-icons/fa";
 
 const Orb = ({ style }) => (
   <div
@@ -221,6 +222,11 @@ export default function Hero() {
                   icon: <FiMail />,
                   href: "mailto:garejabharatk@gmail.com",
                   label: "Email",
+                },
+                {
+                  icon: <FaMedium />,
+                  href: "https://medium.com/@garejabharat",
+                  label: "Medium",
                 },
               ].map((s) => (
                 <motion.a

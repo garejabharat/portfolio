@@ -3,7 +3,7 @@ import { Link } from "react-scroll";
 import { motion, AnimatePresence } from "framer-motion";
 import { FiMenu, FiX } from "react-icons/fi";
 
-const links = ["Home", "About", "Skills", "Projects", "Services", "Contact"];
+const links = ["Home", "About", "Skills", "Contact"];
 
 export default function Navbar() {
   const [scrolled, setScrolled] = useState(false);
