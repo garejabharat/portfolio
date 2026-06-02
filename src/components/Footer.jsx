@@ -35,6 +35,7 @@ export default function Footer() {
               alignItems: "center",
               flexWrap: "wrap",
               gap: 32,
+              paddingBottom: 5,
             }}
           >
             <div>
@@ -107,9 +108,9 @@ export default function Footer() {
           <div
             style={{
               borderTop: "1px solid rgba(255,255,255,0.05)",
-              paddingTop: 24,
+              paddingTop: 10,
               display: "flex",
-              justifyContent: "space-between",
+              justifyContent: "flex-end",
               alignItems: "center",
               flexWrap: "wrap",
               gap: 16,
