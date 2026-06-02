@@ -110,8 +110,8 @@ export default function About() {
               <span style={{ color: "#00e5c3", fontWeight: 500 }}>
                 teaching coding on YouTube
               </span>
-              , traveling, and graphic design. I believe in continuous learning
-              and staying at the forefront of frontend technologies.
+              , traveling, and photography. I believe in continuous learning and
+              staying at the forefront of frontend technologies.
             </p>
           </motion.div>
 
