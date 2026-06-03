@@ -121,9 +121,9 @@ export default function About() {
             transition={{ duration: 0.7, delay: 0.3 }}
             style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: 16 }}
           >
-            {cards.map((c, i) => (
+            {cards.map((elem, i) => (
               <motion.div
-                key={c.title}
+                key={elem.title}
                 className="glass"
                 whileHover={{ y: -4, borderColor: "rgba(79,142,247,0.3)" }}
                 initial={{ opacity: 0, y: 20 }}
@@ -138,7 +138,7 @@ export default function About() {
                 <div
                   style={{ fontSize: 24, color: "#4f8ef7", marginBottom: 12 }}
                 >
-                  {c.icon}
+                  {elem.icon}
                 </div>
                 <div
                   style={{
@@ -149,12 +149,12 @@ export default function About() {
                     color: "#f0f2ff",
                   }}
                 >
-                  {c.title}
+                  {elem.title}
                 </div>
                 <div
                   style={{ fontSize: 13, color: "#5a6380", lineHeight: 1.7 }}
                 >
-                  {c.desc}
+                  {elem.desc}
                 </div>
               </motion.div>
             ))}
