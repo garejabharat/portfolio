@@ -60,10 +60,10 @@ export default function Navbar() {
           style={{ display: "flex", gap: 32, alignItems: "center" }}
           className="desktop-nav"
         >
-          {links.map((l) => (
+          {links.map((element) => (
             <Link
-              key={l}
-              to={l.toLowerCase()}
+              key={element}
+              to={element.toLowerCase()}
               smooth
               duration={600}
               offset={-70}
@@ -78,7 +78,7 @@ export default function Navbar() {
               onMouseEnter={(e) => (e.target.style.color = "#f0f2ff")}
               onMouseLeave={(e) => (e.target.style.color = "#8892b0")}
             >
-              {l}
+              {element}
             </Link>
           ))}
         </div>
